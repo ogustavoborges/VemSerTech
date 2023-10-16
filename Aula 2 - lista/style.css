@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(15, 18, 22);
+    flex-direction: column;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.container{
+    background-color: #f7f7f3;
+    width: 800px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.info th{
+    background-color: rgb(91, 152, 187);
+    width: 65%;
+}
+
+
+th,tr,td{
+    padding: 2px;
+}
+
+.info{
+    border-collapse: collapse; 
+}
+.info td, .info th{
+    border: 1px solid rgb(0, 0, 0);
+   
+}
+
+h1{
+    color: white;
+}
+
+.font16{
+    font-size: 16px;
+}
+
+.cor-de-fundo{
+    background-color: #ccc;
+}
+
+.cor-font{
+    color: #555;
+}
+
+.lista-filmes,.notas-alunos,.info-normal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.filmes{
+    border-collapse: collapse; 
+    background-color: #000000;
+    color: #ccc;
+    font-family: 'Martel Sans', sans-serif;
+    text-align: center;
+}
+
+.color{
+    background-color: crimson;
+   
+}
+.filmes th{
+    color: white;
+}
+
+.filmes td, .filmes th{
+    border: 0.5px solid rgba(172, 53, 53, 0.658);
+
+}
+
+.filmes td{
+    padding: 15px;
+}

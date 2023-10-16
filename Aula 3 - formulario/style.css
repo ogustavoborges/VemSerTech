@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Martel Sans', sans-serif;
+    height: 100vh;
+    /* background-color: rgb(15, 18, 22); */
+}
+
+
+
+.container{
+    margin: 0 auto;
+    width: 800px;
+    height: auto;
+    background: linear-gradient(rgb(28, 28, 35) 0%, rgb(24, 28, 35) 99%);
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid rgb(121, 21, 42);
+}
+
+.titulo{
+    text-align: center;
+    font-family: "Fira Code";
+    color: rgb(235, 0, 51);
+}
+
+fieldset{
+    padding: 15px;
+    background: rgb(40, 44, 51);
+    border-color: rgb(121, 21, 42);
+    border-radius: 10px;
+}
+
+legend{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.input{
+    padding: 4px;
+    background-color: rgb(225, 225, 225);
+    color: rgb(66, 68, 71);
+    border: 1px solid transparent;
+    border-color: rgb(56, 60, 68) transparent;
+    border-radius: 5px;
+}
+
+.botoes{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.botao{
+    font-family: 'Martel Sans', sans-serif;
+    padding: 5px 29px;
+    width: 150px;
+    font-weight: 400;
+    color: white;
+    background-color: rgb(235, 0, 51);
+    border: 1px solid transparent;
+    border-color: rgb(121, 21, 42);
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+
+.botao:hover{
+    background-color: rgb(150, 11, 41); 
+}
+
+.obrigatorio{
+    color: red;
+}
