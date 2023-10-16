@@ -10,7 +10,10 @@ body{
     /* background-color: rgb(15, 18, 22); */
 }
 
-
+:root{
+  --vermelho: rgb(235, 0, 51);
+  --vermelho-escuro:  rgb(121, 21, 42);
+}
 
 .container{
     margin: 0 auto;
@@ -20,19 +23,19 @@ body{
     color: white;
     border-radius: 10px;
     padding: 15px;
-    border: 1px solid rgb(121, 21, 42);
+    border: 1px solid var(--vermelho-escuro);
 }
 
 .titulo{
     text-align: center;
     font-family: "Fira Code";
-    color: rgb(235, 0, 51);
+    color: var(--vermelho);
 }
 
 fieldset{
     padding: 15px;
     background: rgb(40, 44, 51);
-    border-color: rgb(121, 21, 42);
+    border-color: var(--vermelho-escuro);
     border-radius: 10px;
 }
 
@@ -61,9 +64,9 @@ legend{
     width: 150px;
     font-weight: 400;
     color: white;
-    background-color: rgb(235, 0, 51);
+    background-color: var(--vermelho);
     border: 1px solid transparent;
-    border-color: rgb(121, 21, 42);
+    border-color: var(--vermelho-escuro);
     border-radius: 25px;
     cursor: pointer;
 
