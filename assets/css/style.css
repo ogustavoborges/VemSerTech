@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(15, 18, 22);
+    height: 100vh;
+    text-align: center;
+}
+
+.header{
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.section{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    padding:  0 50px;
+}
+
+.box{
+    background: rgb(24, 28, 35);
+    border-radius: 8px;
+    color: white;
+    font-family: Ubuntu, sans-serif;
+    padding: 2rem 1.5rem;
+    transition: all 300ms ease-in-out 0s;
+    max-width: 374px;
+    text-align: center;
+}
+

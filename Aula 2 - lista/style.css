@@ -9,7 +9,13 @@ body{
     flex-direction: column;
     font-family: 'Martel Sans', sans-serif;
 }
-
+.botao-filme{
+    text-decoration: none;
+    color: white;
+}
+.botao-filme:hover{
+    color: crimson;
+ }
 .container{
     background-color: #f7f7f3;
     width: 800px;

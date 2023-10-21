@@ -4,10 +4,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-
     font-family: 'Martel Sans', sans-serif;
     height: 100vh;
-    /* background-color: rgb(15, 18, 22); */
+
 }
 
 :root{
@@ -16,7 +15,7 @@ body{
 }
 
 .container{
-    margin: 0 auto;
+    margin-top: 50px;
     width: 800px;
     height: auto;
     background: linear-gradient(rgb(28, 28, 35) 0%, rgb(24, 28, 35) 99%);
