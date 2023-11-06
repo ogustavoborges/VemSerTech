@@ -26,7 +26,7 @@ Neste projeto final, da turma #VemSerTech, que é uma parceria entre o iFood e a
 
 ## 🌐 Link para visualização
 
-https://ogustavoborges.github.io/VemSerTech/Trabalho%20final/index.html
+[Acesse o projeto final](https://ogustavoborges.github.io/VemSerTech/Trabalho%20final/index.html)
 
 ## :memo: Licença
 
